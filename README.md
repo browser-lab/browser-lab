@@ -1,81 +1,43 @@
-# Browser Lab - Desktop Browser Website
+# Astro Starter Kit: Minimal
 
-A modern, static website for Browser Lab desktop browser built with pure HTML, CSS, and JavaScript. Hosted on GitHub Pages.
-
-## 📋 Project Structure
-
-```
-browser-lab/
-├── index.html           # Main landing page
-├── styles/
-│   └── main.css        # Styling
-├── scripts/
-│   └── main.js         # Interactivity
-├── README.md           # This file
-└── docs/               # Additional documentation (optional)
+```sh
+npm create astro@latest -- --template minimal
 ```
 
-## 🚀 Features
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-- **Fast & Lightweight**: Pure HTML/CSS/JS - no build process needed
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **GitHub Pages Ready**: Deploy directly from your repository
-- **Smooth Interactions**: Scroll animations and smooth navigation
-- **SEO Friendly**: Semantic HTML structure
+## 🚀 Project Structure
 
-## 🌐 Deployment on GitHub Pages
+Inside of your Astro project, you'll see the following folders and files:
 
-1. **Enable GitHub Pages** in your repository settings:
-   - Go to Settings → Pages
-   - Select "Deploy from a branch"
-   - Choose the branch (usually `main`) and root directory (`/`)
-   - Click "Save"
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-2. **Your site will be live at**: `https://browser-lab.github.io/`
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-3. **Push changes**: Simply commit and push to `main` branch - GitHub Pages will auto-update
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-## 📝 Customization
+Any static assets, like images, can be placed in the `public/` directory.
 
-### Edit Homepage
-Open `index.html` and customize:
-- Hero section text and CTA button
-- Features section content
-- Download section links
-- Navigation menu
+## 🧞 Commands
 
-### Styling
-Edit `styles/main.css` to:
-- Change colors and fonts
-- Modify layout
-- Adjust spacing and sizing
-- Add new sections
+All commands are run from the root of the project, from a terminal:
 
-### Interactivity
-Add JavaScript in `scripts/main.js` for:
-- Interactive elements
-- Analytics tracking
-- Download handling
-- Form submissions
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 📁 Adding More Pages
+## 👀 Want to learn more?
 
-To add additional pages (e.g., `/docs.html`):
-- Create `docs.html` in the root directory
-- Link to it from `index.html`
-- Updated automatically on push
-
-## 🔗 Resources
-
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [HTML5 Reference](https://html.spec.whatwg.org/)
-- [CSS Tricks](https://css-tricks.com/)
-- [MDN Web Docs](https://developer.mozilla.org/)
-
-## 📄 License
-
-Choose a license for your browser project and add it here.
-
----
-
-**Note**: This is a static website. For dynamic features (user accounts, forms with backend), you'll need a server.
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
