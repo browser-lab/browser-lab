@@ -15,9 +15,10 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 import heroVideo from '~/assets/hero/hero.mp4';
 import heroPoster from '~/assets/hero/hero.jpg';
+import { SITE } from 'astrowind:config';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Velloc Browser — Your browser. Your rules.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -29,11 +30,11 @@ const metadata = {
     <Fragment slot="actions">
       <div style="transform: translateY(0px); opacity: 1; filter: blur(0px);">
         <a
-          href="/download/install.exe"
+          href={SITE?.download || '/download/install.exe'}
           class="transition-bg flex items-center justify-center gap-2 rounded-xl px-6 py-4 transition-transform duration-150 hover:scale-[1.02] active:scale-[0.98] w-fit border border-[var(--aw-color-text-default)] bg-[var(--aw-color-text-default)] text-[var(--aw-color-bg-page)] shadow-lg"
           data-astro-cid-vnzlvqnm=""
         >
-          Download Volloc browser Now
+          Download Velloc Browser Now
           <Icon name="tabler:download" class="w-5 h-5" />
         </a>
       </div>

@@ -12,7 +12,7 @@ metadata:
   title:
     default: Velloc Browser
     template: '%s — Velloc Browser'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Velloc Browser — Your browser. Your rules. Flexible layouts, powerful blocking, user scripts, and AI-powered controls."
   robots:
     index: true
     follow: true
@@ -24,8 +24,8 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@velloc'
+    site: '@velloc'
     cardType: summary_large_image
 
 i18n:
