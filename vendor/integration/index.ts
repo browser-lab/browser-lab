@@ -38,6 +38,7 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
             plugins: [
               {
                 name: 'vite-plugin-astrowind-config',
+                enforce: 'pre',
                 resolveId(id) {
                   if (id === virtualModuleId) {
                     return resolvedVirtualModuleId;
