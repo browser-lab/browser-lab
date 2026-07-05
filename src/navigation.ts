@@ -7,18 +7,6 @@ export const headerData = {
       href: getPermalink('/'),
     },
     {
-      text: 'Capabilities',
-      href: getPermalink('/#tools'),
-    },
-    {
-      text: 'How it works',
-      href: getPermalink('/#how'),
-    },
-    {
-      text: 'Velloc Browser',
-      href: getPermalink('/index-browser'),
-    },
-    {
       text: 'Blog',
       href: getBlogPermalink(),
     },
